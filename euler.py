@@ -5,8 +5,9 @@ __author__ = 'rafa'
 
 def main():
     for id, problem in problems.iteritems():
-        print problem.title(), problem.description(), \
-            "Solution: {}".format(problem.solution())
+        print id, problem.title()
+        print problem.description()
+        print "\tSolution: {}".format(problem.solution())
 
 
 main()
