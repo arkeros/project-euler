@@ -1,4 +1,4 @@
-from utils import fibonacci
+from utils import iter_fibonacci
 
 __author__ = 'rafa'
 
@@ -13,7 +13,7 @@ def solver():
     exceed four million, find the sum of the even-valued terms.
     """
     total = 0
-    for n in fibonacci():
+    for n in iter_fibonacci():
         if n > 4000000:
             return total
         if n % 2 == 0:  # is even
