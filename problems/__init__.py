@@ -1,7 +1,7 @@
 from problems import multiples_of_3_and_5, even_fibonacci_numbers, \
     largest_prime_factor, smallest_multiple, sum_square_difference, \
     _10001st_prime, summation_of_primes, highly_divisible_triangular_numer, \
-    power_digit_sum
+    power_digit_sum, lexicographic_permutations
 
 __author__ = 'rafa'
 
@@ -14,7 +14,8 @@ algorithms_map = {
     7: _10001st_prime,
     10: summation_of_primes,
     # 12: highly_divisible_triangular_numer,
-    16: power_digit_sum
+    16: power_digit_sum,
+    24: lexicographic_permutations
 }
 
 
